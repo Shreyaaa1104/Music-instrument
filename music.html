@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musical Instruments Classes</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <h1>Musical Instruments Classes</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#instruments">Instruments</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Musical Instruments Classes</h2>
+        <p>Learn to play your favorite musical instruments with us.</p>
+    </section>
+
+    <section id="instruments">
+        <h2>Our Instruments</h2>
+        <div class="instrument">
+            <h3>Guitar</h3>
+            <p>Learn to play the guitar from the basics to advanced techniques.</p>
+            <img src="guitar.jpg"alt="guitar"widht="300" height="300">
+        </div>
+        <div class="instrument">
+            <h3>Piano</h3>
+            <p>Master the piano with our expert teachers and comprehensive lessons.</p>
+            <img src="piano.jpg"alt="piano"widht="300" height="300">
+        </div>
+        <div class="instrument">
+            <h3>Violin</h3>
+            <p>Start your journey with the violin and explore classical music.</p>
+            <img src="violin.jpg"alt="violin"widht="300"height="300">
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form id="contactForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
